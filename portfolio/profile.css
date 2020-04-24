@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(round.png);
+    color:#464D73;
+    font-family: Roboto Condensed;
+    overflow:;
+}
+
+#body{
+    margin-top: 5rem;
+}
+nav{
+    background:#464D73;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+
+}
+nav a{
+    padding: 12px 2rem;
+    font-size: 40px;
+    color: rgb(220, 20, 20);
+
+}
+.row{
+    background:rgb(226, 170, 102);
+    padding-top: 20px;
+
+}
+.table{
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+.img-fluid{
+    padding: 6px;
+}
+.img-fluid{
+    box-shadow: 1px 2px 5px black;
+}
+
+.heading{
+}
+#x .heading h2,h5,#text{
+    text-align: center;
+}
+.taable td{
+    line-height: 50px;
+}
+.col-sm-4{
+    box-sizing: border-box;
+}
+
+#hello{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#hello:before {
+content : "";
+ position: absolute;
+ left    : 0;
+ bottom  : 0;
+ bottom: 20%;
+  height  : 60%;
+  width   : 3px;  /* or 100px */
+  border-left:5px solid rgba(202, 5, 202, 0.705);
+}
+
+.hell:before {
+content : "";
+ position: absolute;
+ left    : 20%;
+ bottom  : 0;
+  height  :3px;
+  width   : 60%;  /* or 100px */
+  border-bottom:5px solid rgb(202, 5, 202);
+}
+.resume-heading{
+    background: rgb(218, 216, 216);
+    padding: 2rem;
+}
+ h6{
+    color: white;
+    background: rgb(211, 61, 61);
+    position:absolute;
+    padding: 7px 10px;
+    border-radius:45px;
+}
+#second{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+#second-second{
+    background: #282a2e;
+    padding: 0;
+}
+#second-second .row{
+    background: #282a2e;
+    margin: 3px;
+    padding-left: 2vw;
+}
+#sec{
+    padding: 0;
+    margin-bottom: 3rem;
+}
+.address{
+    background: #fff;
+    padding:2vw;
+    font-family: montserrat;
+    font-size: 20px;
+    line-height:2rem;
+    color: black;
+}
+.experience{
+    color: #fff;
+    background:rgb(211, 61, 61) ;
+    text-align: center;
+    padding: 0;
+}
+.year{
+   margin-top: -3px;
+   padding: 2rem;
+   background: #fff;
+   color: black;
+
+}
+.year h5,p{
+    text-align: left;
+}
+.circle{
+    padding: 2rem;
+}
+#second-second .year{
+        color: whitesmoke;
+        background: #282a2e;
+}
+.circle span{
+    color: white;
+    background:#282a2e;
+    border-radius: 50%;
+    padding:4px 4px;
+    border: 3px rgb(197, 23, 23) solid;
+    font-size: 3vh;
+    margin-left: 4vw;
+    border-bottom: 4px white dotted;
+
+}
+.circle span:nth-child(1){
+    margin-left: 0;
+}
+.col-3,.col-8{
+    margin-top: 2rem;
+}
+.education{
+    padding: 0;
+    margin-top: 3rem;
+    background: rgb(155, 26, 26);
+    text-align: center;
+}
+
+
+
+
+
+.navigation {
+    margin-top: 3rem;
+    width: 100%;
+    text-decoration: none;
+    border-bottom:2px rgb(236, 233, 233) solid;
+    text-align: center;
+    padding-bottom: 2rem;
+
+
+}
+.navigation a{
+    padding: 4px 18px;
+    border-radius: 70px;
+    text-decoration: none;
+    border: 0.5px rgb(202, 196, 196) solid;
+    color: rgb(17, 16, 16);
+    font-family: Montserrat;
+    
+}
+.navigation a:hover{
+    color:green;
+    background:rgba(7, 240, 7, 0.178);  
+    border: none;
+}
+.active{
+    color:green;
+  background:rgba(7, 240, 7, 0.178);  
+  border: none;
+}
+
+ h2 #shaf:hover{
+    color: brown;
+}
+
+.imagecontainer img{
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    
+}
+.imagecontainer p{
+     font-size: 18px;
+     font-family: Montserrat;
+}
+.imagecontainer .col-sm-3 p{
+padding-top: 1rem;
+border-bottom: 2px rgb(117, 8, 8) solid;
+opacity: 0;
+transition: 0.5s;
+font-weight: 300;
+text-align: center;
+
+}
+.imagecontainer .col-sm-3:hover p{
+            opacity:1;
+            transition: 0.5s;
+}
+.imagecontainer{
+    text-align: center;
+    color: black;
+}
+
+#z {
+    background: rgb(238, 236, 236);
+}
+#z .row{
+    background: rgb(238, 236, 236);
+}
+:-webkit-scrollbar{
+    width: 8px;
+}
+:-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 70px;
+    height: 20px;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+
+
+#parent{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#parent H1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+#triangle1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(0% 0%,100% 0%,0% 100%);
+    background:linear-gradient(to bottom right,#AD49E4,#7E4CEE,#5054D7,#4C86EE,#59B8E4);
+    color: rgb(71, 70, 70);
+    z-index: 1;
+}
+#triangle2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(0% 100%,100% 0%,100% 100%);
+    background: linear-gradient(to bottom right,#AD49E4,#7E4CEE,#5054D7,#4C86EE,#59B8E4);
+    color: rgb(71, 70, 70);
+    z-index: 1;
+}
+.postion{
+    position: relative;
+}
+#button{
+    position: absolute;
+    
+    background:linear-gradient(to bottom right,magenta,teal);
+    color:white;
+    z-index: 1;
+    text-align: center;
+    border-radius: 70px;
+    top: 47%;
+    left: 47%;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+
+  input[type=text], textarea,input[type=email]{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally)*/
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #575857;
+  }
+#m h4{
+    color: black;
+    border-bottom: 2px rgb(151, 19, 19) solid;
+    padding-bottom: 2rem;
+}
+#m .col-sm-3{
+    border-left: 3px solid green;
+}
+#m .row{
+    background: rgb(238, 236, 236);
+}
+
+
+

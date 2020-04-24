@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Tillana' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/546d88a32b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".button").click(function(){
+               var name = $(this).attr("data-filter");
+               if(name == "All"){
+                   $(".filter").show("3000");
+               }
+               else{
+                   $(".filter").not("."+name).hide("3000");
+                   $(".filter").filter("."+name).show("3000");
+               }
+            });
+            $(".navigation a").click(function(){
+                $(this).addClass("active").siblings().removeClass("active")
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#button").click(function(){
+        
+                $("#triangle1").animate({top:'-100%'},"slow");
+                $("#triangle2").animate({ bottom:'-100%'},"slow");
+                $("#triangle3").hide();
+                
+                $("#triangle1").hide(2000);
+                $("#triangle2").hide(2000);
+
+                
+
+            
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="parent">
+        <div id="con">
+            <div id="triangle1"><H1>THIS IS PC VERSION TRIAL
+                <BR>SMARTPHONE VERSION COMING...
+            </H1></div>
+        </div>
+       <div id="con2">
+            <div id="triangle2"></div>
+       </div>
+        <div id="triangle3"><p id="button"> Get Started</p></div>
+    </div>
+    
+    <div class="container" id="body">
+        <div class="container-fluid">
+            <div class="accordion" id="demo">
+            <nav>
+
+                <a href="#" data-toggle="collapse" data-target="#x"><i class="fas fa-user-alt"></i></a>
+                <a href="#" data-toggle="collapse" data-target="#y"><i class="fas fa-receipt"></i></a>
+                <a href="#" data-toggle="collapse" data-target="#z"><i class="fas fa-camera-retro"></i></a>
+                <a href="#" data-toggle="collapse" data-target="#m"><i class="fas fa-phone-square-alt"></i></a>
+            </nav>
+          
+            <div id="x" class="collapse show" data-parent="#demo" >
+               <div class="container">
+                   <div class="row"></div>
+                   <div class="row"></div>
+                 <div class="row">
+                   
+
+                                           <div class="col-sm-4">
+                                            <img src="IMG_20200121_123123.jpg" class="img-fluid mx-auto d-block" height="400" width="300" alt="">
+                                               </div>
+                                             
+                                               <div class="col-sm-4" id="hello" class="hell">
+                                                <section class="heading">
+                                                  <h2>SHAFIQUL ISLAM</h2>
+                                             
+                                                    <h5>GRAPHIC DESIGNER</h5>
+                                                    <br>
+                                                       <p id="text">Graphic and web design is my passion</p>
+                                                       </section>
+                                                        </div>
+
+                                      
+                    <div class="col-sm-4" id="hello">
+                    
+                        <div class="taable">
+                           <table class="table-borderless">
+                            <tr>
+                              <td>Name   </td>
+                                <td>Shafiqul Islam</td>
+                                </tr>
+                                 <tr>
+                                  <td>Email   </td>
+                                    <td>shafiksoweb191@gmail.com</td>
+                                     </tr>
+                                       <tr>
+                                          <td>Phone  </td>
+                                           <td>+8801738556332</td>
+                                            </tr>
+                                            </table>
+               
+                                          </div>
+
+                                      </div> 
+                 </div>
+                 <div class="row"></div>
+                 <div class="row">
+                                      <div class="col-sm-4">
+                                        <img src="FB_IMG_15877097039324977.jpg" class="img-fluid mx-auto d-block" height="400" width="300" alt="">
+                                           </div>
+                
+                                      
+                              <div class="col-sm-4" id="hello">
+                                <section class="heading">
+                                  <h2>NAWAB KIBRIA</h2>
+                             
+                                    <h5>WEB DEVLOPER</h5>
+                                    <br>
+                                       <p id="text">Developing websites is my favourite one</p>
+                                       </section>
+                                        </div>
+ 
+ 
+ 
+                     <div class="col-sm-4" id="hello">
+                              <div class="taable">
+                                 <table class="table-borderless">
+                                  <tr>
+                                    <td>Name   </td>
+                                      <td>nawab kibria</td>
+                                      </tr>
+                                       <tr>
+                                        <td>Email   </td>
+                                          <td>nawabkhairuzzaman@.com</td>
+                                           </tr>
+                                             <tr>
+                                                <td>Phone  </td>
+                                                 <td>+8801700792973</td>
+                                                  </tr>
+                                                  </table>
+                     
+                                                </div>
+                                            </div>                 
+                                        </div>
+                                        <div class="row"></div>
+                                        <div class="row"></div>
+                                     </div>
+                  
+            </div>
+                  
+               
+
+            <div id="y" class="collapse" data-parent="#demo" >
+                <div class="container">
+                    <div class="row" id="sec">
+             <div class="col-md-6" id="second">
+                <div class="resume-heading">
+                     <h2 id="shaf">
+                        <span style="color: darkcyan"> SHAFIQUL</span><br><span style="color: darkcyan"> ISLAM </span></h2>
+                       <h6>CREATIVE DESIGNER</h6> <br><br>
+                        <p style="color: rgba(0, 0, 0, 0.904);">In the name of Allah the most merciful the most kind.Master of the judgement.We aone worship we alone ask for help</p>
+                      </div>
+                <div class="address">
+                    <pre><span style="color: rgb(209, 41, 41);">PHONE NO</span>   01738556332</pre>
+                    <pre><span style="color: rgb(209, 41, 41);">ADDRESS</span>    PARKER MOR,RANGPUR</pre>
+                    <pre><span style="color: rgb(209, 41, 41);">EMAIL US</span>   shafiksoweb191@gmail.com</pre>
+                </div>
+                <div class="experience"><pre><span style="color: #fff; font-size: 16px;"> E X P E R I E N C E</span></pre></div>
+                <div class="year">
+                    <h6>2018-2019</h6><br><br>
+                    <h5>PROGRAMMER</h5>
+                    <P>I was a expert coder in c language</P>
+                    <br> <br>
+            
+                    <h6>2019-2020</h6>
+                    <br><br>
+                    <h5>WEB DESIGNER</h5>
+                    <P>I was a a expert coder in c language</P>
+                <br> <br>
+        
+                    <h6>2020-2021</h6>
+                    <br><br>
+                    <h5>GRAPHIC DESIGNER</h5>
+                    <P>I was a a expert coder in c language</P> <br>
+                </div>
+             </div>
+             <div class="col-md-6" id="second-second">
+                 <div class="circle">
+                    <p><span>PS</span><span>AI</span><span>AE</span><span>BR</span></p>
+                 </div>
+                 <div>
+                     <div class="row">
+                         <div class="col-3">HTML</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%</div>
+                             </div>
+                         </div>
+                            <br>
+
+                         <div class="col-3">CSS</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%</div>
+                             </div>
+                         </div>
+
+                        
+                         <div class="col-3">JS</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
+                             </div>
+                         </div>
+                        
+                         <div class="col-3">jQUERY</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%">90%</div>
+                             </div>
+                         </div>
+                                   
+                         <div class="col-3">PS</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">70%</div>
+                             </div>
+                         </div>
+                    
+                         <div class="col-3">ILUSTRATOR</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%</div>
+                             </div>
+                         </div>
+                            
+                         <div class="col-3">EFFECT</div>
+                         <div class="col-8">
+                             <div class="progress">
+                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%">20n%</div>
+                             </div>
+                         </div>
+                          
+                     </div>
+                 </div>
+                     <div class="education"><pre><span style="color: #fff; font-size: 16px;">E D U C A T I O N</span></pre></div>
+                     <div class="year">
+                        <h6>2018-2019</h6><br><br>
+                        <h5>PROGRAMMER</h5>
+                        <P>I was a expert coder in c language</P>
+                        <br> <br>
+                
+                        <h6>2019-2020</h6>
+                        <br><br>
+                        <h5>WEB DESIGNER</h5>
+                        <P>I was a a expert coder in c language</P>
+                    <br> <br>
+            
+                        <h6>2020-2021</h6>
+                        <br><br>
+                        <h5>GRAPHIC DESIGNER</h5>
+                        <P>I was a a expert coder in c language</P>
+                    </div>
+                
+                 
+                     </div>
+                 </div>
+            
+             </div>
+                </div>
+            <div id="z" class="collapse" data-parent="#demo" >
+                
+        <div class="container">
+            <div class="row">
+                      <div class="navigation">
+                      <a href="#" data-filter="All" class="button active">All</a>
+                      <a href="#" data-filter="Photography" class="button">Photography</a>
+                      <a href="#" data-filter="Ilustration" class="button">Ilustration</a>
+                      <a href="#" data-filter="Templete" class="button">Templete</a>
+                  </div>
+            </div>
+        <div class="container">
+                <div class="container-fluid">
+                  <div class="imagecontainer row">
+                      <div class="col-sm-3 filter Photography">
+                          <img src="img_1.jpg" class="img-fluid mx-auto d-block"alt="">
+                          <p>NAME</p>
+                      </div>
+                      <div class="col-sm-3 filter Photography">
+                        <img src="img_2.jpg"class="img-fluid mx-auto d-block" alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Ilustration">
+                        <img src="img_3.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                        
+                    </div>
+                    <div class="col-sm-3 filter Ilustration Templete">
+                        <img src="img_4.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Templete">
+                        <img src="img_5.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Templete">
+                        <img src="slider-1.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Photography">
+                        <img src="slider-2.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Photography">
+                        <img src="slider-3.jpg" class="img-fluid mx-auto d-block"alt="">
+                        <p>NAME</p>
+                    </div>
+                    <div class="col-sm-3 filter Photography">
+                      <img src="slider-4.jpg"class="img-fluid mx-auto d-block" alt="">
+                      <p>NAME</p>
+                  </div>
+                  <div class="col-sm-3 filter Ilustration">
+                      <img src="slider-5.jpg" class="img-fluid mx-auto d-block"alt="">
+                      <p>NAME</p>
+                      
+                  </div>
+                  <div class="col-sm-3 filter Ilustration Templete">
+                      <img src="slider-6.jpg" class="img-fluid mx-auto d-block"alt="">
+                      <p>NAME</p>
+                  </div>
+                  <div class="col-sm-3 filter Templete">
+                      <img src="slider-7.jpg" class="img-fluid mx-auto d-block"alt="">
+                      <p>NAME</p>
+                  </div>
+                  </div>
+
+            
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </div>
+            <div id="m" class="collapse" data-parent="#demo" >
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57498.00018488968!2d89.2270258234756!3d25.74991157149164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32de6fca6019b%3A0x9fa496e687f818c8!2sRangpur!5e0!3m2!1sen!2sbd!4v1587448741706!5m2!1sen!2sbd" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div>
+                       <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <br>
+                                <h4>CONTACT INFO</h4>
+                                <br><br>
+                                <div class="address">
+                                    <pre><span style="color: rgb(209, 41, 41);">PHONE NO</span>   01738556332</pre>
+                                    <pre><span style="color: rgb(209, 41, 41);">ADDRESS</span>    PARKER MOR,RANGPUR</pre>
+                                    <pre><span style="color: rgb(209, 41, 41);">EMAIL US</span>   shafiksoweb191@gmail.com</pre>
+                                </div> 
+                            </div>
+                            <div class="col-sm-7">
+                                <br>
+                                <h4>LET'S KEEP IN TOUCH</h4>
+                                <br>
+                    
+                                <input type="text" name="" id="" placeholder="Your name">
+                                <input type="email" name="" id="" placeholder="Your email">
+                                <textarea name="Your message" id="" cols="30" rows="10"></textarea>
+                                <input type="submit" value="LET'S TALK">
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row"></div>
+                       </div>
+                    </div>
+                      </div>
+            
+        </div>
+    </div>
+ </div>
+
+</body>
